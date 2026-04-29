@@ -52,7 +52,7 @@
 header{
     background-color:#FFF8F3;
     background: url("../images/developer.png"), url("../images/header_bg.png"),#FFF8F3;
-    background-position: top left,bottom right;
+    background-position: 23px 38px,bottom right;
     background-repeat: no-repeat;
     padding: 51px;
     
@@ -214,4 +214,52 @@ nav .menu a{
    font-size: 16px;
     color: #757575; 
 line-height: 28px;
+}
+.text-center{
+    text-align: center;
+}
+footer{
+  margin-top: 130px;
+   background-color: #FFF8F3;
+    padding:130px 0 ;
+
+}
+footer .footer-container {
+    width: 74%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 116px;
+}
+ .footer-container .sociale{
+    max-width: 562px;
+ }
+ .footer-container h2{
+     font-size: 35px;
+     color: #181818;
+     margin-bottom: 20px;
+ }
+.footer-container .sociale p{
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 30px;
+    color: #474747;
+}
+.footer-container  .icons a {
+    margin-right: 24px;
+}
+.footer-container form input[type="text"]{
+    width: 461px;
+    padding:18px  30px   ;
+    border: none;
+    margin-bottom: 24px;
+    border-radius: 5px;
+
+}
+.footer-container form input[type="amin"]{
+   width: 461px;
+    padding:18px  30px 134px  ;
+    border: none;
+    margin-bottom: 24px;
+    border-radius: 5px; 
 }
